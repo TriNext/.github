@@ -1,1 +1,1 @@
-Willkommen auf dem GitHub-Account der TriNext!
+Willkommen auf dem GitHub-Account der TriNext GmbH!
