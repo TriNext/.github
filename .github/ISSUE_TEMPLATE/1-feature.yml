@@ -33,7 +33,7 @@ body:
     validations:
       required: true
  
- - type: textarea
+  - type: textarea
     id: blocked-by
     attributes:
       label: "Kommentar"
