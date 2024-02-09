@@ -34,7 +34,7 @@ body:
       required: true
  
   - type: textarea
-    id: blocked-by
+    id: comment
     attributes:
       label: "Kommentar"
     validations:
