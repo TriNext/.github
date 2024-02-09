@@ -26,7 +26,7 @@ body:
       required: false
  
   - type: dropdown
-    id: version
+    id: priority
     attributes:
       label: "Priorität:"
       description: Wie wichtig ist das Refactoring?
