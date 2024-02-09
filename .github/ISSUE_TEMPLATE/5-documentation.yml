@@ -22,11 +22,10 @@ body:
     id: priority
     attributes:
       label: "Priorität:"
-      description: Wie wichtig ist das Refactoring?
+      description: Wie wichtig ist diese Dokumentation?
       options:
-        - Wäre eine nette, lokale Verbesserung
-        - Hat größere Auswirkungen auf die Codequalität
-        - Hat große Auswirkungen auf die Struktur
+        - Nice to have
+        - Notwendig
       default: 1
     validations:
       required: true
