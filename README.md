@@ -1,2 +1,2 @@
 # .github
-Enthält die .README, sowie allgemeine öffentliche Daten zu GitHub-Organisation TriNext
+Enthält die grundsätzlichen Einstellungen aller Repositories der Organisation.
