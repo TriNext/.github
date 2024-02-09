@@ -1,0 +1,33 @@
+name: "Bugfix"
+description: "Something isn't working and should get fixed"
+title: "[FIX] "
+labels: ["bug"]
+body:
+ 
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Wann tritt der Bug auf?
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-should-be-done
+    attributes:
+      label: Was muss getan werden?
+      value: "- [ ]" 
+    validations:
+      required: true
+ 
+  - type: dropdown
+    id: version
+    attributes:
+      label: Priorität
+      description: Wie schlimm ist der Bug?
+      options:
+        - Könnte zur Not warten
+        - Sollte bald gemacht werden
+        - Muss umgehend auf main
+      default: 1
+    validations:
+      required: true
