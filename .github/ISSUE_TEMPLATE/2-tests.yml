@@ -19,8 +19,8 @@ body:
       description: Wie wichtig sind diese Tests?
       options:
         - Optional / Nice to have
-        - Standardtests einer Klassse
-        - Coverage sonst nicht auf dev erfüllt
+        - Standardtests einer Implementierung
+        - Essentiell für Coverage auf dev
       default: 1
     validations:
       required: true
