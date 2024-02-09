@@ -13,7 +13,7 @@ body:
       required: true
     
   - type: dropdown
-    id: version
+    id: priority
     attributes:
       label: "Priorität:"
       description: Wie wichtig sind diese Tests?
