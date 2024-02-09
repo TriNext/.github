@@ -31,3 +31,11 @@ body:
       default: 1
     validations:
       required: true
+ 
+  - type: textarea
+    id: comment
+    attributes:
+      label: "Kommentar"
+    validations:
+      required: false
+ 
