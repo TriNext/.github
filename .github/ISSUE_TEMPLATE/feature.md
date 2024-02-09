@@ -1,8 +1,8 @@
 ---
 name: Feature
-about: Feature-Issues request describe new code.
+about: " New feature or request "
 title: "[FEAT] "
-labels: ''
+labels: feature
 assignees: ''
 
 ---
