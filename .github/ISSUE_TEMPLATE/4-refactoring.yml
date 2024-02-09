@@ -1,0 +1,47 @@
+name: "Refactoring"
+description: "Change something that already exists"
+title: "[REF] "
+labels: ["refactoring"]
+body:
+ 
+  - type: textarea
+    id: what-needs-to-be-done
+    attributes:
+      label: "Was muss refactored werden?"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: why-should-it-be-done
+    attributes:
+      label: "Warum muss es refactored werden?"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: how-should-it-be-done
+    attributes:
+      label: "Wie sollte es refactored werden?"
+    validations:
+      required: false
+ 
+  - type: dropdown
+    id: version
+    attributes:
+      label: "Priorität:"
+      description: Wie wichtig ist das Refactoring?
+      options:
+        - Wäre eine nette, lokale Verbesserung
+        - Hat größere Auswirkungen auf die Codequalität
+        - Hat große Auswirkungen auf die Struktur
+      default: 1
+    validations:
+      required: true
+ 
+  - type: textarea
+    id: comment
+    attributes:
+      label: "Kommentar"
+    validations:
+      required: false
+ 
