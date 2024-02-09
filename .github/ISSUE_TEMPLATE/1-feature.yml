@@ -8,7 +8,7 @@ body:
     id: what-needs-to-be-done
     attributes:
       label: "Was muss getan werden?"
-      value: "- [ ]"
+      value: "- [ ] "
     validations:
       required: true
 
@@ -23,7 +23,7 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Priorität
+      label: "Priorität:"
       description: Wie wichtig ist das Feature?
       options:
         - Optional / Nice to have
@@ -32,3 +32,12 @@ body:
       default: 1
     validations:
       required: true
+ 
+ - type: textarea
+    id: blocked-by
+    attributes:
+      label: "Kommentar"
+      value: ""
+    validations:
+      required: false
+ 
