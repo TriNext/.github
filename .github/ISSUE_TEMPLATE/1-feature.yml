@@ -37,7 +37,6 @@ body:
     id: blocked-by
     attributes:
       label: "Kommentar"
-      value: ""
     validations:
       required: false
  
