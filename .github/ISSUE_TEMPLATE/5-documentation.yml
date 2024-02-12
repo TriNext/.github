@@ -15,6 +15,7 @@ body:
     id: how-should-it-be-done
     attributes:
       label: "Wie sollte es dokumentiert werden?"
+      placeholder: JavaDoc, Confluence, Swagger, ...
     validations:
       required: false
  
