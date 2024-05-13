@@ -1,0 +1,41 @@
+name: "Release"
+description: "The deployment of a new version between dev and main"
+title: "[RLS] "
+labels: ["release"]
+body:
+ 
+  - type: input
+    id: version
+    attributes:
+      label: "Was ist die neue Versionsnummer?"
+      placeholder: "0.0.1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: changelog
+    attributes:
+      label: "Was hat sich verändert?"
+      placeholder: Beschreibe die Änderungen
+    validations:
+      required: true
+ 
+  - type: textarea
+    id: issues
+    attributes:
+      label: "Welche Issues gehören zu diesem Release?"
+      placeholder: |
+       - 
+       - 
+       -
+       ...
+    validations:
+      required: true
+ 
+  - type: textarea
+    id: comment
+    attributes:
+      label: "Kommentar"
+    validations:
+      required: false
+ 
